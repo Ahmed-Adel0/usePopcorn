@@ -12,6 +12,37 @@ The app utilizes custom hooks and components to manage state and handle user int
 4. CSS: Style sheet language for designing the presentation of the app.
 5. OMDB API: An API that provides movie information and ratings.
 
+## Hooks Used
+
+1. useState
+   The useState hook is used to manage state within components.
+   It allows components to have local state variables and provides functions to update these variables.
+
+2. useEffect
+   The useEffect hook is used to perform side effects in functional components.
+   It allows components to handle lifecycle events such as component mounting, updating, and unmounting.
+
+3. useRef
+   The useRef hook is used to create a mutable reference that persists across component renders.
+   It allows components to store values that persist between renders without triggering a re-render.
+
+## Custom Hooks
+
+1. useKey
+   A custom hook that listens for a specific key press event.
+   It takes a key code as input and invokes a callback function when that key is pressed.
+
+2. useLocalStorageState
+   A custom hook that manages state stored in local storage.
+   It takes an initial value and a key as input and returns the current state value and a function to update the state.
+
+3. useMovies
+   A custom hook that handles movie-related functionality.
+   It manages the movie list, selected movie, and watched movies.
+   It provides functions to fetch movies, add a movie to the watched list, rate a movie, and delete a watched movie.
+
+- By utilizing these custom hooks and regular hooks, the "usePopcorn" app provides optimized functionality and enhances the user experience by efficiently managing state, handling lifecycle events, and accessing DOM elements when necessary.
+
 ## Usage
 
 To use the app, follow these steps:
