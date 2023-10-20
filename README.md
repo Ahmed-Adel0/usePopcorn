@@ -12,14 +12,6 @@ The app utilizes custom hooks and components to manage state and handle user int
 4. CSS: Style sheet language for designing the presentation of the app.
 5. OMDB API: An API that provides movie information and ratings.
 
-## Installation
-
-1. Clone the repository.
-2. Navigate to the project directory.
-3. Run `npm install` to install the dependencies.
-4. Run `npm start` to start the development server.
-5. Open your web browser and visit `http://localhost:3000` to access the app.
-
 ## Usage
 
 To use the app, follow these steps:
